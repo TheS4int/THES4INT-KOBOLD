@@ -18,3 +18,10 @@
 **v0.4.7** · Entwickelt von **TheS4int**.
 
 Die Analyse läuft standardmäßig lokal. Ist VirusTotal aktiviert, sendet KOBOLD den SHA-256 des Anhangs zur Abfrage eines vorhandenen Berichts. „Ohne Treffer“ bezieht sich auf die tatsächlich ausgeführten Prüfungen.
+
+
+## ClamAV beim ersten Start
+
+KOBOLD bringt die ClamAV-Anbindung mit. Das ClamAV-Programm und seine Signaturdatenbank werden separat eingerichtet. Wenn auf Windows x64 eine passende Version verfügbar ist und KOBOLD noch keine eigene Installation hat, erscheint unter **Engines & Einstellungen → ClamAV** ein Installationsangebot. Erst mit **ClamAV installieren** beginnt der Download. **Später** verschiebt die Einrichtung.
+
+Für die Einrichtung und den Signaturdownload ist eine Internetverbindung nötig. Wenn KOBOLD eine bereits vorhandene ClamAV-Installation erkennt, kann es diese für die Anhangsprüfung verwenden.

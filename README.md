@@ -15,7 +15,9 @@
 
 ## Entwicklungsstand
 
-**v0.4.7** · Entwickelt von **TheS4int**.
+**v0.4.7 (Beta)** · Entwickelt von **TheS4int**.
+
+KOBOLD befindet sich in der Beta-Phase. Funktionen und Prüfergebnisse werden weiter getestet und können sich mit kommenden Versionen ändern.
 
 Die Analyse läuft standardmäßig lokal. Ist VirusTotal aktiviert, sendet KOBOLD den SHA-256 des Anhangs zur Abfrage eines vorhandenen Berichts. „Ohne Treffer“ bezieht sich auf die tatsächlich ausgeführten Prüfungen.
 

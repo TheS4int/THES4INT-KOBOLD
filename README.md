@@ -13,6 +13,28 @@
 - Ticketbefunde kopieren und HTML-Fallberichte exportieren.
 - Prüfstatus je Anhang und Engine einsehen, lokale Engines testen und Begriffe im Glossar nachschlagen.
 
+## Bedienübersicht
+
+### Schnellstart
+
+1. **Mail importieren.** Wähle unter **Analyse** den Button **Dateien öffnen** oder ziehe eine oder mehrere `.eml`- oder `.msg`-Dateien auf **EML / MSG ablegen**. KOBOLD startet die Prüfung beim Import.
+2. **Ergebnis prüfen.** Wähle links eine Nachricht aus. Beginne mit **Befunde**. Unter **Header**, **Links** und **Anhänge** findest du die Details. Unter **Anhänge** siehst du, welche Engine den jeweiligen Anhang geprüft hat und welches Ergebnis sie meldet.
+3. **Nachrichten vergleichen.** Öffne **Verlauf**, um die Bezugsmail aufzurufen oder eine importierte **Referenzmail** auszuwählen. Unter **Gemeinsame Merkmale** findest du Übereinstimmungen zwischen importierten Nachrichten, etwa identische Anhänge oder gemeinsame Linkhosts.
+4. **Befund weitergeben.** Klappe für eine einzelne Mail **Ticketbefund** auf und wähle **Befund kopieren**. Für einen ausführlichen Bericht öffne **Fallbericht**, wähle die Nachrichten aus, prüfe die Vorschau und klicke auf **Als HTML speichern**. Adressen, Dateinamen und SHA-256-Fingerabdrücke kannst du bei Bedarf einschließen.
+
+### Häufige Aktionen
+
+| Was möchtest du tun? | Wo findest du es? |
+| --- | --- |
+| Importierte Nachrichten noch einmal prüfen | **Analyse → Erneut prüfen** |
+| Die aktuelle Nachrichtenliste zurücksetzen | **Analyse → Leeren** |
+| Lokale Scanner testen | **Engines & Einstellungen → Lokalen Test starten** |
+| ClamAV einrichten oder Signaturen aktualisieren | **Engines & Einstellungen → ClamAV** |
+| YARA-X-Regeln ändern oder VirusTotal für die Sitzung aktivieren | **Engines & Einstellungen** |
+| Prüfbegriffe, Versionsnummer und Angaben zum Entwickler nachschlagen | **Glossar & Info** |
+
+**Prüfstatus lesen.** „Ohne Treffer“ bezieht sich auf eine ausgeführte Prüfung. Bei Meldungen über ausgelassene oder fehlgeschlagene Prüfungen siehst du unter **Anhänge**, welche Engine betroffen ist.
+
 ## Entwicklungsstand
 
 **v0.4.7 (Beta)** · Entwickelt von **TheS4int**.

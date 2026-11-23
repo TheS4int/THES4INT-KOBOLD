@@ -1,8 +1,10 @@
-![KOBOLD – Mail Thread Analyzer für Windows. Der Kobold hält einen offenen Briefumschlag.](./thes4int-kobold-banner.png)
+![KOBOLD – Mail Thread Analyzer für Windows, Freeware (Closed Source). Der Kobold hält einen offenen Briefumschlag.](./thes4int-kobold-banner.png)
 
 # THΞ S4INT · KOBOLD
 
 **KOBOLD** unterstützt Helpdesk und Security-Teams bei der Erstprüfung verdächtiger E-Mails. Die Windows-App analysiert exportierte `.eml`- und `.msg`-Dateien und fasst Befunde für die Übergabe zusammen.
+
+**Freeware (Closed Source)** · KOBOLD ist kostenlos nutzbar. Der Quellcode der Anwendung bleibt privat.
 
 ## Funktionen
 
